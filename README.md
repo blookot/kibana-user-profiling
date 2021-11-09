@@ -4,7 +4,10 @@ This gives a quick tool to profile user queries on Kibana (and indirectly on Ela
 ## Introduction
 This tool was made to quickly analyze how users query Kibana (and Elasticsearch) on a 6.8 cluster.
 The result was great! very helpful.
+
 _Note_: Not tested on other versions than 6.8, specially since Kibana 7.7 that uses async.
+
+_Note_: Installing the Elastic node APM agent on Kibana can also provide quite great insights out of the box!
 
 ## Capture traffic
 First, we need to capture traffic. Here, we used `packetbeat` installed on the Elasticsearch node queried by Kibana to capture all traffic coming from Kibana to Elasticsearch (not the logs coming from data ingestion).
