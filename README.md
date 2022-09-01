@@ -7,7 +7,7 @@ The result was great! very helpful.
 
 _Note_: Not tested on other versions than 6.8, specially since Kibana 7.7 that uses async.
 
-_Note_: Installing the Elastic node APM agent on Kibana can also provide quite great insights out of the box! Here is [a great blog post](https://www.elastic.co/blog/using-elastic-observability-to-optimize-the-performance-of-detection-rules-in-elastic-security) on this topic!
+_Note_: Installing the Elastic node APM agent on Kibana can also provide quite great insights out of the box! Here is [a great blog post](https://www.elastic.co/blog/3-tips-to-identify-kibana-optimizing-potential) and [another one](https://www.elastic.co/blog/using-elastic-observability-to-optimize-the-performance-of-detection-rules-in-elastic-security) on this topic!
 
 ## Capture traffic
 First, we need to capture traffic. Here, we used `packetbeat` installed on the Elasticsearch node queried by Kibana to capture all traffic coming from Kibana to Elasticsearch (not the logs coming from data ingestion).
